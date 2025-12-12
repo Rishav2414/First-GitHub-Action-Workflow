@@ -1,13 +1,13 @@
-name: Rishav Singh
+name: Rishav Singh  # name defined
 
-on:
-  push:
-    branches: [ main ]
+on: # event trigger
+  push: # which event trigger
+    branches: [ main ] # branches defined and code push to main branch
 
-jobs:
-  demo: 
-    runs-on: ubuntu-latest
+jobs: # initize job
+  demo: # job name
+    runs-on: ubuntu-latest # runner defined
 
-    steps:
-      - name: Greeting
-        run: echo "Hello from Rishav"
+    steps: # defined steps
+      - name: Greeting # defined name
+        run: echo "Hello from Rishav" # run command
